@@ -3,6 +3,7 @@ import useFetch from "./hooks/useFetch";
 import TodoList from "./components/TodoList";
 import Clock from "./components/Clock";
 import PostsView from "./components/PostsView"
+import WindowTracker from "./components/WindowTracker";
 export default function App() {
   const [limit, setLimit] = useState(5);
   const { data, loading, error } = useFetch(
@@ -34,6 +35,8 @@ export default function App() {
       <Clock />
 
       <PostsView />
+
+      <WindowTracker />
     </div>
   );
 }
