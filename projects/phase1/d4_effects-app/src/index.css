@@ -1,0 +1,7 @@
+:root { color-scheme: dark; }
+body { margin: 0; padding: 2rem; font-family: system-ui, sans-serif; }
+.container { max-width: 900px; }
+.card { border: 1px solid #555; border-radius: 8px; padding: 1rem; margin-block: 1rem; }
+.controls { margin-bottom: 1rem; display: flex; gap: 1rem; }
+.list { list-style: none; padding: 0; margin: 0; display: grid; gap: .5rem; }
+.item { display: flex; gap: .5rem; align-items: center; padding: .5rem; border: 1px solid #444; border-radius: 6px; }
